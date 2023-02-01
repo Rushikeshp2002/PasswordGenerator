@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1C1C1C;
+}
+
+.container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: centevbr;
+    margin-top: 4.5rem;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.box1{
+    text-align: left;
+    padding: 4rem 2rem;
+    background-color: #273549;
+    width: 40rem;
+    height: 25rem;
+    border-radius: 1rem;
+}
+
+.Title{
+    font-size: 4rem;
+    width:33rem;
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    font-family: 'Karla', sans-serif;
+}
+
+span{
+    color: #4ADF86;
+}
+
+h4{
+    letter-spacing: 0.090rem;
+    margin-top: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #D5D4D8;
+    margin-bottom: 3.5rem;
+}
+
+#btn{
+    background: #10B981;
+    /* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); */
+    border: none;
+    border-radius: 6px;
+    width: 14rem;
+    height: 2.9rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    
+}
+.cont{
+    
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pass-el1{
+    margin-top: 2rem;
+    width: 18rem;
+    height: 2.7rem;
+    background-color: #2F3E53;
+    border-radius: 0.5rem;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    line-height: 2.5rem;
+    color: #55F991;
+}
+
+#pass-el2{
+    margin-top: 2rem;
+    width: 18rem;
+    height: 2.7rem;
+    background-color: #2F3E53;
+    border-radius: 0.5rem;
+    margin-left: 3.6rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    line-height: 2.5rem;
+    color: #55F991;
+}
+
+hr{
+    background-color: #2F3E53;
+    height: 3px;
+    border: none;
+}
+
+
+.btnTheme{
+    width: 6rem;
+    height: 2.5rem;
+    float: right;
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+    background-color: #080808;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.dark-mode{
+    background-color: #ECFDF5;
+}
